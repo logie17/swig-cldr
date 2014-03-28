@@ -1,0 +1,28 @@
+{
+  "name": "swig-cldr",
+  "version": "0.0.01",
+  "description": "a cldr package based on twitter cldr for swig",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:logie17/swig-cldr.git"
+  },
+  "dependencies": {
+    "underscore": "1.5.x",
+    "swig": "1.3.2"
+  },
+  "devDependencies": {
+      "nodeunit": "*"
+  },
+  "keywords": [
+    "swig",
+    "i18n",
+    "cldr",
+    "international"
+  ],
+  "author": "Shutterstock",
+  "license": "GPL3"
+}
