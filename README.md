@@ -3,7 +3,7 @@ swig-cldr
 
 # About
 
-This CLDR library is based on (https://github.com/twitter/twitter-cldr-js)[twitter-cldr]
+This CLDR library is based on [twitter-cldr](https://github.com/twitter/twitter-cldr-js)
 
 # Syntax
 
