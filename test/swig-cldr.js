@@ -16,7 +16,7 @@ exports["basic default usage"] = function(test){
   this.swig_cldr.init();
   var template = '{% currency 1000 %}'; 
 
-  var expected = this.swig.render(template);
+  var expected = this.swig.render(template, {locals:{i18n:{language: 'en'}}});
 
   test.expect(1);
   // This is totally wrong for some reason
