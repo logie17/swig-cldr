@@ -18,9 +18,13 @@ exports["basic default usage"] = function(test){
 
   var expected = this.swig.render(template, {locals:{i18n:{language: 'en'}}});
 
-  test.expect(1);
+  test.expect(2);
   // This is totally wrong for some reason
   test.equal(expected, '10000.00');
+
+  expected = this.swig.render(template, {locals:{i18n:{language: 'fr'}}});
+  test.equal(expected, '0,00 1000');
+
   test.done();
 };
 
