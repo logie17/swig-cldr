@@ -13,6 +13,10 @@ This CLDR library is based on [twitter-cldr](https://github.com/twitter/twitter-
   {% currency 1000 %}
 
   {% format 12121 %}
+
+  {% date 2014 10 20 %}
+
+  {% date dateObject %}
 ```
 
 
