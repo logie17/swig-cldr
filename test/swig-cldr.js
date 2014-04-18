@@ -19,7 +19,6 @@ exports["basic default usage"] = function(test){
   var expected = this.swig.render(template, {locals:{i18n:{language: 'en'}}});
 
   test.expect(2);
-  // This is totally wrong for some reason
   test.equal(expected, '$1,000.00');
 
   expected = this.swig.render(template, {locals:{i18n:{language: 'fr', currency_code: "EUR"}}});
