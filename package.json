@@ -13,7 +13,8 @@
   "dependencies": {
     "underscore": "1.5.x",
     "swig": "1.3.2",
-    "twitter_cldr": "x.x.x"
+    "twitter_cldr": "x.x.x",
+    "datejs":"x.x.x"
   },
   "devDependencies": {
     "nodeunit": "*",
