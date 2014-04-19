@@ -16,7 +16,10 @@
     "twitter_cldr": "x.x.x"
   },
   "devDependencies": {
-      "nodeunit": "*"
+    "nodeunit": "*"
+    "grunt": "0.4.4",
+    "grunt-contrib-jshint": "0.6.3",
+    "grunt-contrib-nodeunit": "0.2.0"
   },
   "keywords": [
     "swig",
