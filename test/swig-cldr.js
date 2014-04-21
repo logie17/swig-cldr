@@ -44,3 +44,21 @@ exports["percentage"] = function(test){
   test.done();
 };
 
+exports["date fun"] = function(test) {
+  this.swig_cldr.init();
+
+  var template = '{% date "July 8th, 2007" %}'; 
+
+  var expected = this.swig.render(template, {locals:{i18n:{language: 'en'}}});
+
+  test.expect(2);
+  test.equal(expected, '7/8/07, 12:00 AM');
+
+  expected = this.swig.render(template, {locals:{i18n:{language: 'fr'}}});
+  test.equal(expected, '08/07/2007 00:00');
+
+  test.done();
+
+  
+};
+
