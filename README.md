@@ -5,7 +5,7 @@ swig-cldr [![Build Status](https://secure.travis-ci.org/logie17/swig-cldr.png?br
 
 # About
 
-This CLDR library is based on [twitter-cldr](https://github.com/twitter/twitter-cldr-js)
+This CLDR tag for [swig](http://paularmstrong.github.io/swig/) using [twitter-cldr](https://github.com/twitter/twitter-cldr-js)
 
 # Syntax
 
@@ -18,6 +18,4 @@ This CLDR library is based on [twitter-cldr](https://github.com/twitter/twitter-
 
   {% date dateObject %}
 ```
-
-
 
