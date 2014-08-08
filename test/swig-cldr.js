@@ -22,7 +22,7 @@ exports["basic default usage"] = function(test){
   test.equal(expected, '$1,000.00');
 
   expected = this.swig.render(template, {locals:{i18n:{language: 'fr', currency_code: "EUR"}}});
-  test.equal(expected, '1 000,00 $');
+  test.equal(expected, '1 000,00 €');
 
   test.done();
 };
@@ -44,7 +44,7 @@ exports["percentage"] = function(test){
   test.done();
 };
 
-exports["date fun"] = function(test) {
+exports["dates"] = function(test) {
   this.swig_cldr.init();
 
   var template = '{% date "July 8th, 2007" %}'; 
